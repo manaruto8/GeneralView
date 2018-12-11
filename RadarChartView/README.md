@@ -9,4 +9,4 @@
 ![Image text](https://github.com/ma1291870239/CobwebView/blob/master/pic/Screenshot_1528169022.png)
 </br>
 ## 边数与等分可变
-![Image text](https://github.com/ma1291870239/CobwebView/blob/master/pic/1.gif)
+![Image text](https://github.com/manaruto8/CustomView/blob/master/RadarChartView/pic/1.gif)
