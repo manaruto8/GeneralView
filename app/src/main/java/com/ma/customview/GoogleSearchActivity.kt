@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_google_search.*
 
 import java.lang.Exception
 
-class GoogleSearchActivity : AppCompatActivity() {
+class GoogleSearchActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_google_search)

@@ -14,8 +14,6 @@ import com.ma.customview.R;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 
 /**
@@ -39,7 +37,7 @@ public class RadarChartView extends View {
     private int r;
     private List<PointXY> pointList;
     private List<PointXY> dataList;
-    private List<List<PointXY>> circlrList=new ArrayList<>();
+    private List<List<PointXY>> circleList =new ArrayList<>();
     private List<String> textList=new ArrayList<>();
     private List<String> colorList=new ArrayList<>();
     private List<List<Integer>> dateList=new ArrayList<>();
@@ -69,18 +67,18 @@ public class RadarChartView extends View {
         linePaint.setStyle(Paint.Style.STROKE);
 
 
-        new Timer().schedule(new TimerTask() {
-            @Override
-            public void run() {
-                for(int j=0;j<circlrList.size();j++){
-                    circlrList.get(j).clear();
-                }
-                circlrList.clear();
-                side++;
-                circleCount++;
-                postInvalidate();
-            }
-        },1000,2000);
+//        new Timer().schedule(new TimerTask() {
+//            @Override
+//            public void run() {
+//                for(int j=0;j<circlrList.size();j++){
+//                    circlrList.get(j).clear();
+//                }
+//                circlrList.clear();
+//                side++;
+//                circleCount++;
+//                postInvalidate();
+//            }
+//        },1000,2000);
     }
 
 
@@ -106,16 +104,16 @@ public class RadarChartView extends View {
                 PointXY pointXY=new PointXY(pointX,pointY);
                 pointList.add(pointXY);
             }
-            circlrList.add(pointList);
+            circleList.add(pointList);
         }
 
-        for(int j=0;j<circlrList.size();j++){
-            path.moveTo(circlrList.get(j).get(0).getX(),circlrList.get(j).get(0).getY());
-            for (int i=0;i<circlrList.get(j).size();i++){
-                path.lineTo(circlrList.get(j).get(i).getX(),circlrList.get(j).get(i).getY());
-                canvas.drawLine(width/2,height/2,circlrList.get(j).get(i).getX(),circlrList.get(j).get(i).getY(),linePaint);
+        for(int j = 0; j< circleList.size(); j++){
+            path.moveTo(circleList.get(j).get(0).getX(), circleList.get(j).get(0).getY());
+            for (int i = 0; i< circleList.get(j).size(); i++){
+                path.lineTo(circleList.get(j).get(i).getX(), circleList.get(j).get(i).getY());
+                canvas.drawLine(width/2,height/2, circleList.get(j).get(i).getX(), circleList.get(j).get(i).getY(),linePaint);
             }
-            path.lineTo(circlrList.get(j).get(0).getX(),circlrList.get(j).get(0).getY());
+            path.lineTo(circleList.get(j).get(0).getX(), circleList.get(j).get(0).getY());
             canvas.drawPath(path,linePaint);
         }
 
@@ -147,11 +145,11 @@ public class RadarChartView extends View {
         }
     }
 
-    public void setCobwebText(List<String> textList){
+    public void setRadarChartText(List<String> textList){
         this.textList=textList;
     }
 
-    public void setCobwebData(String color ,List<Integer> dateList){
+    public void setRadarChartData(String color ,List<Integer> dateList){
         this.colorList.add(color);
         this.dateList.add(dateList);
         postInvalidate();

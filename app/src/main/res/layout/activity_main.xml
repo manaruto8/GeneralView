@@ -15,11 +15,11 @@
             <TextView
                 android:id="@+id/main_radarchat"
                 style="@style/MainText"
-                android:text="雷达图-radar chat" />
+                android:text="雷达图 Radar Chat" />
             <TextView
                 android:id="@+id/main_googlesearch"
                 style="@style/MainText"
-                android:text="谷歌搜索-google search" />
+                android:text="谷歌搜索 Google Search" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
