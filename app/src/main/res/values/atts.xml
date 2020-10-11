@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RadarChartView">
+        <attr name="backgroundLineColor" format="color"/>
+        <attr name="sideCount" format="integer"/>
+        <attr name="initAngle" format="integer"/>
+        <attr name="backgroundLineStrokeWidth" format="float"/>
+        <attr name="circleCount" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="dataLineStrokeWidth" format="float"/>
+    </declare-styleable>
+</resources>

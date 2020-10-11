@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/back_search_layout_corner_border">
+        <ImageView
+            android:id="@+id/search_left_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_menu"/>
+        <EditText
+            android:id="@+id/search_text_et"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:inputType="none"
+            android:imeOptions="actionSearch"
+            android:background="@null"/>
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/search_right_iv1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_search_search"/>
+        <ImageView
+            android:id="@+id/search_right_iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search_mic"/>
+        <ImageView
+            android:id="@+id/search_right_account"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/ic_search_account"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ma.customview.RadarChartActivity">
+    <com.ma.customview.view.RadarChartView
+        android:id="@+id/main_cobweb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="100dp"
+        app:backgroundLineColor="@android:color/darker_gray"
+        app:sideCount="5"
+        app:initAngle="90"
+        app:backgroundLineStrokeWidth="5"
+        app:circleCount="4"
+        app:max="100"
+        app:dataLineStrokeWidth="5"/>
+
+</LinearLayout>

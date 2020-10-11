@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_height">45dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="round_corner">2dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="tab_indicator_height">1dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="divider">1dp</dimen>
+    <dimen name="hide">-5dp</dimen>
+    <dimen name="search_border">30dp</dimen>
+    <dimen name="text_heigh">40dp</dimen>
+
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_21">21sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_34">34sp</dimen>
+    <dimen name="text_45">45sp</dimen>
+    <dimen name="text_56">56sp</dimen>
+    <dimen name="text_67">67sp</dimen>
+    <dimen name="text_78">78sp</dimen>
+    <dimen name="text_89">89sp</dimen>
+    <dimen name="text_100">100sp</dimen>
+</resources>
