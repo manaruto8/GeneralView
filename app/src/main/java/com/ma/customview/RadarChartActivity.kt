@@ -8,10 +8,12 @@ import kotlinx.android.synthetic.main.activity_radar_chart.*
 import java.util.*
 
 class RadarChartActivity : BaseActivity() {
+
     private val list1: MutableList<Int> = ArrayList()
     private val list2: MutableList<Int> = ArrayList()
     private val list3: MutableList<Int> = ArrayList()
     private val textList: MutableList<String> = ArrayList()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_radar_chart)
