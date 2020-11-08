@@ -20,6 +20,14 @@
                 android:id="@+id/main_googlesearch"
                 style="@style/MainText"
                 android:text="谷歌搜索 Google Search" />
+            <TextView
+                android:id="@+id/main_verifyCodeInput"
+                style="@style/MainText"
+                android:text="验证码输入 Verify Code Input" />
+            <TextView
+                android:id="@+id/main_spanInput"
+                style="@style/MainText"
+                android:text="验证码输入 Span Input" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

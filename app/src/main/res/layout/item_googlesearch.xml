@@ -13,7 +13,7 @@
         android:layout_marginBottom="8dp"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
-        android:background="@drawable/back_search_layout_corner_border">
+        android:background="@drawable/bg_search_layout_corner_border">
         <ImageView
             android:id="@+id/search_left_iv"
             android:layout_width="wrap_content"

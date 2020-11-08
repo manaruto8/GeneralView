@@ -92,7 +92,7 @@ class GoogleSearchView(context: Context, attrs: AttributeSet): LinearLayout(cont
                 search_layout.layoutParams = lp
                 search_right_account.visibility= View.GONE
                 search_left_iv.setImageResource(R.drawable.ic_search_arrowback)
-                search_layout.setBackgroundResource(R.drawable.back_search_layout_bottom_border)
+                search_layout.setBackgroundResource(R.drawable.bg_search_layout_bottom_border)
                 leftTag= LEFT_IV_ARROW
             } else {
                 lp.setMargins(dp2px(context,16f),
@@ -103,7 +103,7 @@ class GoogleSearchView(context: Context, attrs: AttributeSet): LinearLayout(cont
                 search_right_iv1.visibility= View.GONE
                 search_right_account.visibility= View.VISIBLE
                 search_left_iv.setImageResource(R.drawable.ic_search_menu)
-                search_layout.setBackgroundResource(R.drawable.back_search_layout_corner_border)
+                search_layout.setBackgroundResource(R.drawable.bg_search_layout_corner_border)
                 leftTag= LEFT_IV_MENU
             }
 

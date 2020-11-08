@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <com.ma.customview.view.VerifyCodeEditText
+        android:id="@+id/verifyCodeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        app:box="4"
+        app:child_h_padding="30dp"
+        app:child_width="45dp"
+        app:child_height="45dp"
+        app:box_bg_normal="@drawable/bg_verify_edit_normal"
+        app:box_bg_focus="@drawable/bg_verify_edit_select"
+        android:textColorHint="@color/secondary_black_text"
+        android:textColor="@color/divider_black_text"
+        android:textSize="16dp" />
+
+</LinearLayout>

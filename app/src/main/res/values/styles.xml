@@ -15,7 +15,19 @@
         <item name="android:textColor">@color/primary_black_text</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:paddingLeft">@dimen/margin_16</item>
-        <item name="android:background">@drawable/back_main_tv_bottom_border</item>
+        <item name="android:background">@drawable/bg_main_tv_bottom_border</item>
     </style>
+
+    <declare-styleable name="verifyCodeEditText">
+        <attr name="box" format="integer" />
+        <attr name="child_h_padding" format="dimension"/>
+        <attr name="child_v_padding" format="dimension"/>
+        <attr name="child_width" format="dimension"/>
+        <attr name="child_height" format="dimension"/>
+        <attr name="padding" format="dimension"/>
+        <attr name="box_bg_focus" format="reference"/>
+        <attr name="box_bg_normal" format="reference"/>
+        <attr name="inputType" format="string"/>
+    </declare-styleable>
 
 </resources>
