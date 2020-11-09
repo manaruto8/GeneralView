@@ -1,4 +1,4 @@
-package com.ma.customview.view
+package com.ma.generalview.view
 
 import android.animation.LayoutTransition
 import android.content.Context
@@ -11,7 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.LinearLayout
-import com.ma.customview.R
+import com.ma.generalview.R
 import kotlinx.android.synthetic.main.item_googlesearch.view.*
 
 

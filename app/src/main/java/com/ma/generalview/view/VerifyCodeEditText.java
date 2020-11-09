@@ -1,4 +1,4 @@
-package com.ma.customview.view;
+package com.ma.generalview.view;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -20,7 +20,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 
-import com.ma.customview.R;
+import com.ma.generalview.R;
 
 import java.util.ArrayList;
 import java.util.List;

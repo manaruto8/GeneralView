@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ma.customview">
+    package="com.ma.generalview">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SpanEditTextActivity"></activity>
-        <activity android:name=".VerifyCodeActivity" />
-        <activity android:name=".BaseActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="SpanEditTextActivity"></activity>
+        <activity android:name="VerifyCodeActivity" />
+        <activity android:name="BaseActivity" />
+        <activity android:name="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RadarChartActivity" />
+        <activity android:name="RadarChartActivity" />
         <activity
-            android:name=".GoogleSearchActivity"
+            android:name="com.ma.generalview.GoogleSearchActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
-    <com.ma.customview.view.VerifyCodeEditText
+    <com.ma.generalview.view.VerifyCodeEditText
         android:id="@+id/verifyCodeEditText"
         android:layout_width="wrap_content"
         android:layout_height="45dp"

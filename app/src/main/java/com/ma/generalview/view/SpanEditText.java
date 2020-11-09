@@ -1,4 +1,4 @@
-package com.ma.customview.view;
+package com.ma.generalview.view;
 
 import android.content.Context;
 
@@ -20,7 +20,7 @@ import android.view.inputmethod.InputConnectionWrapper;
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.core.content.ContextCompat;
 
-import com.ma.customview.R;
+import com.ma.generalview.R;
 
 public class SpanEditText extends AppCompatEditText {
 

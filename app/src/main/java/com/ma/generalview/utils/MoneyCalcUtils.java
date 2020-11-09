@@ -1,4 +1,4 @@
-package com.ma.customview.utils;
+package com.ma.generalview.utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

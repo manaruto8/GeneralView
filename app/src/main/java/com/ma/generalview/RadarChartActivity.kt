@@ -1,9 +1,7 @@
-package com.ma.customview
+package com.ma.generalview
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.ma.customview.view.RadarChartView
 import kotlinx.android.synthetic.main.activity_radar_chart.*
 import java.util.*
 

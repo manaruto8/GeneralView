@@ -1,10 +1,9 @@
-package com.ma.customview
+package com.ma.generalview
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
-import com.ma.customview.view.SpanEditText
+import com.ma.generalview.view.SpanEditText
 import kotlinx.android.synthetic.main.activity_span_edit_text.*
 
 class SpanEditTextActivity : BaseActivity(),View.OnClickListener {

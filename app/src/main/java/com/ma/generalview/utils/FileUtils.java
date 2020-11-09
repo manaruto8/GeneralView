@@ -1,4 +1,4 @@
-package com.ma.customview.utils;
+package com.ma.generalview.utils;
 
 import android.content.ContentResolver;
 import android.content.Context;

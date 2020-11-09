@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.ma.customview.view.SpanEditText
+    <com.ma.generalview.view.SpanEditText
         android:id="@+id/et_span_content"
         android:layout_width="match_parent"
         android:layout_height="500dp"

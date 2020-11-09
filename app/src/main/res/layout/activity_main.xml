@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ma.customview.MainActivity">
+    tools:context="com.ma.generalview.MainActivity">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -27,7 +27,7 @@
             <TextView
                 android:id="@+id/main_spanInput"
                 style="@style/MainText"
-                android:text="验证码输入 Span Input" />
+                android:text="仿@字块显示 Span Input" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

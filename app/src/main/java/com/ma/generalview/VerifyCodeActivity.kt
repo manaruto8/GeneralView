@@ -1,9 +1,7 @@
-package com.ma.customview
+package com.ma.generalview
 
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.ma.customview.view.VerifyCodeEditText
 import kotlinx.android.synthetic.main.activity_verify_code.*
 
 class VerifyCodeActivity : BaseActivity() {

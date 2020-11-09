@@ -1,4 +1,4 @@
-package com.ma.customview.utils;
+package com.ma.generalview.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,7 +14,6 @@ import android.text.style.CharacterStyle;
 import android.text.style.ForegroundColorSpan;
 import android.util.Base64;
 import android.util.DisplayMetrics;
-import android.util.Log;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

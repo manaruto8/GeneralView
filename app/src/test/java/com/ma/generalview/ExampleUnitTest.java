@@ -1,4 +1,4 @@
-package com.ma.customview;
+package com.ma.generalview;
 
 import org.junit.Test;
 

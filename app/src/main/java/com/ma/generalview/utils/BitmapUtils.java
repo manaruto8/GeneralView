@@ -1,4 +1,4 @@
-package com.ma.customview.utils;
+package com.ma.generalview.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,9 +17,6 @@ import android.renderscript.Element;
 import android.renderscript.RenderScript;
 import android.renderscript.ScriptIntrinsicYuvToRGB;
 import android.renderscript.Type;
-import android.widget.Toast;
-
-import com.ma.customview.Constant;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;

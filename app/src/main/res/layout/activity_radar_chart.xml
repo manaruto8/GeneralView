@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.ma.customview.RadarChartActivity">
-    <com.ma.customview.view.RadarChartView
+    tools:context="com.ma.generalview.RadarChartActivity">
+    <com.ma.generalview.view.RadarChartView
         android:id="@+id/radarChatView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

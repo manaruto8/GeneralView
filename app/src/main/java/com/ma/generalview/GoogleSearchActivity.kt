@@ -1,11 +1,10 @@
-package com.ma.customview
+package com.ma.generalview
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.speech.RecognizerIntent
 import android.view.Gravity
-import com.ma.customview.view.GoogleSearchView
+import com.ma.generalview.view.GoogleSearchView
 import kotlinx.android.synthetic.main.activity_google_search.*
 
 import java.lang.Exception

@@ -1,4 +1,4 @@
-package com.ma.customview
+package com.ma.generalview
 
 import android.content.Intent
 import android.os.Bundle

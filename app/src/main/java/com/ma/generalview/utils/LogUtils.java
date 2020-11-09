@@ -1,8 +1,6 @@
-package com.ma.customview.utils;
+package com.ma.generalview.utils;
 
 import android.util.Log;
-
-import com.ma.customview.Constant;
 
 import java.util.List;
 

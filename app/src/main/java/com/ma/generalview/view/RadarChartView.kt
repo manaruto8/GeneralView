@@ -1,4 +1,4 @@
-package com.ma.customview.view
+package com.ma.generalview.view
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.graphics.Path
 import android.util.AttributeSet
 import android.view.View
-import com.ma.customview.R
+import com.ma.generalview.R
 import java.util.*
 import kotlin.math.cos
 import kotlin.math.min
