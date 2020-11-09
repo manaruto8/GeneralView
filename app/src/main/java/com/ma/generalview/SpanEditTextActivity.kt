@@ -17,13 +17,14 @@ class SpanEditTextActivity : BaseActivity(),View.OnClickListener {
         btn_span_test1.setOnClickListener(this)
         btn_span_test2.setOnClickListener(this)
         btn_span_test3.setOnClickListener(this)
-        et_span_content.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+        et_span_content.setOnKeyListener { v, keyCode, event ->
             if (keyCode == KeyEvent.KEYCODE_DEL && event.action == KeyEvent.ACTION_DOWN) {
                 SpanEditText.KeyDownHelper(et_span_content.text)
             } else false
-        })
+        }
         val s="请点击[测试]按钮测试"
         et_span_content.setText(et_span_content.subSpanString(s))
+        et_span_content.setSelection(s.length)
     }
 
     override fun onClick(view: View?) {

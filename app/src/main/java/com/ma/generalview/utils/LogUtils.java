@@ -6,8 +6,8 @@ import java.util.List;
 
 public class LogUtils {
 
-    public static final boolean openLog = true;
-    public static final String mTag = "app";
+    private static final boolean openLog = true;
+    private static final String mTag = "app";
 
     /**
      * 输出debug log

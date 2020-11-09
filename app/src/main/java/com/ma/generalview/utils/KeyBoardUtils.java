@@ -11,7 +11,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class KeyBoardUtils {
-    private static final String TAG = KeyBoardUtils.class.getSimpleName();
 
     //隐藏虚拟键盘
     public static void hideKeyboard(View v,Context context) {

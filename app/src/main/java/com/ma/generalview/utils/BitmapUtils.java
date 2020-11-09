@@ -31,9 +31,9 @@ import java.nio.channels.FileChannel;
 
 public class BitmapUtils {
 
-    public static final String folderName = "app";
-    public static final String bitmapName = ".jpg";
-    public static final int bitmapSize = 200;// kb
+    private static final String folderName = "app";
+    private static final String bitmapName = ".jpg";
+    private static final int bitmapSize = 200;// kb
 
     /**
      * 质量压缩方法

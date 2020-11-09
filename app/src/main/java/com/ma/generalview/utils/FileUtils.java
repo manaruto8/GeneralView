@@ -24,8 +24,8 @@ import java.util.Properties;
 
 public class FileUtils {
 
-    public static final String folderName = "app";
-    public static final String tmpPic = "tmp.jpg";
+    private static final String folderName = "app";
+    private static final String tmpPic = "tmp.jpg";
 
     private static String dataBasePath = "";
 

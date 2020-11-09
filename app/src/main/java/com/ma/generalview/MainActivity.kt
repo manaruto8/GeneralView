@@ -3,6 +3,7 @@ package com.ma.generalview
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import com.ma.generalview.utils.ToastUtils
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity(), View.OnClickListener {
@@ -19,6 +20,8 @@ class MainActivity : BaseActivity(), View.OnClickListener {
         main_googlesearch.setOnClickListener(this)
         main_verifyCodeInput.setOnClickListener(this)
         main_spanInput.setOnClickListener(this)
+        main_st.setOnClickListener(this)
+        main_lt.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -38,6 +41,12 @@ class MainActivity : BaseActivity(), View.OnClickListener {
             R.id.main_spanInput -> {
                 val toSpan = Intent(this, SpanEditTextActivity::class.java)
                 startActivity(toSpan)
+            }
+            R.id.main_st -> {
+                ToastUtils.showShort(this,"1")
+            }
+            R.id.main_lt -> {
+                ToastUtils.showLong(this,"2")
             }
         }
     }

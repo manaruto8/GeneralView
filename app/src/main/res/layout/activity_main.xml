@@ -28,6 +28,14 @@
                 android:id="@+id/main_spanInput"
                 style="@style/MainText"
                 android:text="仿@字块显示 Span Input" />
+            <TextView
+                android:id="@+id/main_st"
+                style="@style/MainText"
+                android:text="st" />
+            <TextView
+                android:id="@+id/main_lt"
+                style="@style/MainText"
+                android:text="lt" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

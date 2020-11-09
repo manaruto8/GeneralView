@@ -8,11 +8,11 @@ import java.math.RoundingMode;
  */
 
 public class MoneyCalcUtils {
-    public static final int TYPE_ADD = 0x000; // 加法
-    public static final int TYPE_MULTIPLY = 0x001; // 乘法
-    public static final int TYPE_DIVIDE = 0x002; // 除法
-    public static final int TYPE_SUBTRACT = 0x003; // 减法
-    public static final int SCALE = 2;
+    private static final int TYPE_ADD = 0x000; // 加法
+    private static final int TYPE_MULTIPLY = 0x001; // 乘法
+    private static final int TYPE_DIVIDE = 0x002; // 除法
+    private static final int TYPE_SUBTRACT = 0x003; // 减法
+    private static final int SCALE = 2;
     /**
      *  加法
      * @param a

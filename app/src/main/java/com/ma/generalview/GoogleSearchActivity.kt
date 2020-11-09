@@ -54,13 +54,13 @@ class GoogleSearchActivity : BaseActivity() {
 
     fun startVoiceRecognitionActivity() {
         try {
-            val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH)
             intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-            intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "请对着麦克风说话！");
-            startActivityForResult(intent, 0X001);
+                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
+            intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "请对着麦克风说话！")
+            startActivityForResult(intent, 0X001)
         } catch ( e:Exception) {
-            e.printStackTrace();
+            e.printStackTrace()
         }
     }
 
