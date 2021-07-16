@@ -1,5 +1,5 @@
 # GeneralView
 
-Android自定义View和常用工具类。
+Android自定义View和常用工具类
 
 ##
